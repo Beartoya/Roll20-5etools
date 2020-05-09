@@ -1,0 +1,1706 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MidgardHeroesHandbook",
+				"abbreviation": "MHH",
+				"full": "Midgard Heroes Handbook",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1589001910,
+		"dateLastModified": 1589001910
+	},
+	"spell": [
+		{
+			"name": "Angelic Guardian",
+			"source": "MidgardHeroesHandbook",
+			"page": 149,
+			"level": 1,
+			"school": "C",
+			"subschools": [
+				"angelic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a minor celestial manifestation to protect a creature you can see within range. A faintly glowing figure resembling a human head and shoulders hovers within 5 feet of the target for the duration. The figure moves to interpose itself between the target and any incoming attacks, granting the target +2 to AC.",
+				"  If the target fails a Dexterity saving throw while the spell is active, it can use its reaction to roll a new save. The spell then ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "3bb2cf6622522e7f3031b4c38ec9ed67"
+		},
+		{
+			"name": "Draconic Smite",
+			"source": "MidgardHeroesHandbook",
+			"page": 163,
+			"level": 1,
+			"school": "V",
+			"subschools": [
+				"dragon"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon takes on the form of a silver dragon’s head. Your attack deals an extra {@damage 1d6} cold damage, and up to four other creatures of your choosing within 30 feet of the attack's target must each make a successful Constitution saving throw or take {@damage 1d6} cold damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage done to the secondary creatures increases by {@dice 1d6} for each slot above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "6538c910f2115e35cd3e7ca6ff63b3c7"
+		},
+		{
+			"name": "Find Kin",
+			"source": "MidgardHeroesHandbook",
+			"page": 167,
+			"level": 1,
+			"school": "D",
+			"subschools": [
+				"Rothenian"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch one willing creature or make a melee spell attack against an unwilling creature. If the target fails a Wisdom saving throw, you learn the identity, appearance, and location of one randomly-selected living relative of the target. A creature can choose to automatically fail this saving throw."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "8d29972a9b62b6607a7ea7437ce5ccd7"
+		},
+		{
+			"name": "Hobble Mount",
+			"source": "MidgardHeroesHandbook",
+			"page": 174,
+			"level": 1,
+			"school": "N",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast hobble mount as a successful melee spell attack against a horse, wolf, or other four-legged or twolegged beast being ridden as a mount, that beast is disabled so that it can't move at its normal speed without incurring injury. An affected creature that moves more than half its base speed in a turn takes {@damage 2d6} bludgeoning damage.",
+				"This spell has no effect on a creature that your GM deems to not be a mount."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 2d6} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "6a731d50a1c7b2d3c59cbf635db15257"
+		},
+		{
+			"name": "Machine’s Load",
+			"source": "MidgardHeroesHandbook",
+			"page": 181,
+			"level": 1,
+			"school": "T",
+			"subschools": [
+				"Clockwork"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"r": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a creature and give it the capacity to carry, lift, push, or drag weight as if it were one size category larger. If you're using the encumbrance rules, the target is not subject to penalties for weight. Furthermore, the subject can carry loads that would normally be unwieldy."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot higher than 1st, you can touch one additional creature for each spell level."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "bdab7ba403ce0c50ba3b559532135c38"
+		},
+		{
+			"name": "Pendulum",
+			"source": "MidgardHeroesHandbook",
+			"page": 185,
+			"level": 1,
+			"school": "E",
+			"subschools": [
+				"clockwork"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "(a small pendulum or metronome made of brass and rosewood worth 10 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You give the target creature a degree of regularity in its motions and fortunes. If the target fails a Wisdom saving throw, then for the duration of the spell it doesn't make {@dice d20} die rolls but instead follows the sequence 20, 1, 19, 2, 18, 3, 17, 4, and so on."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "942b0892a6114ae455c11fb9d6a17120"
+		},
+		{
+			"name": "Spur Mount",
+			"source": "MidgardHeroesHandbook",
+			"page": 194,
+			"level": 1,
+			"school": "A",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 0
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an apple or sugar cube"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You urge your mount to greater speed. Until the beginning of your next turn, your mount can Dash or Disengage as a bonus action. This spell has no effect on a creature that you are not riding or that your GM deems is not a mount."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "e57702ec3fc9bb1cd7dc5591b5e9de07"
+		},
+		{
+			"name": "Blessed Halo",
+			"source": "MidgardHeroesHandbook",
+			"page": 153,
+			"level": 2,
+			"school": "V",
+			"subschools": [
+				"angelic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A nimbus of golden light surrounds your head for the duration. The halo sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+				"This spell grants you a pool of 10 points of healing. When you cast the spell and as an action on subsequent turns during the spell’s duration, you can expend points from this pool to restore an equal number of lost hit points to one creature within the spell’s bright light that you can see.",
+				"Additionally, you have advantage on Charisma checks made against good creatures within the blessed halo's light.",
+				"If any of this spell’s area overlaps an area of magical darkness created by a spell of 2nd level or lower, the spell that created the darkness is dispelled."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the spell’s pool of healing increases by 5 points for each spell slot above 2nd and this spell dispels darkness spells of a level equal to the slot used in casting blessed halo."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "9bd3e7f880a182b6db63f587302753f9"
+		},
+		{
+			"name": "Mass Blade Ward",
+			"source": "MidgardHeroesHandbook",
+			"page": 182,
+			"level": 2,
+			"school": "A",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You make a protective gesture toward your allies. Choose three creatures that you can see within range. Until the end of your next turn, the targets have resistance against bludgeoning, piercing, and slashing damage from weapon attacks. If a target moves farther than 30 feet from you, the effect ends for that creature."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "4b4d79a5f6415e4fc605652dda9b8891"
+		},
+		{
+			"name": "Repair Metal",
+			"source": "MidgardHeroesHandbook",
+			"page": 188,
+			"level": 2,
+			"school": "T",
+			"subschools": [
+				"clockwork"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A damaged construct or metal object regains {@dice 1d8 + 5} hit points when this spell is cast on it."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"The spell restores {@dice 2d8 + 10} hit points at 4th level, {@dice 3d8 + 15} at 6th level, and {@dice 4d8 + 20} at 8th level."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "479835b7fb2a944191e2b897a91d925a"
+		},
+		{
+			"name": "Shadows Brought to Light",
+			"source": "MidgardHeroesHandbook",
+			"page": 192,
+			"level": 2,
+			"school": "D",
+			"subschools": [
+				"high elven"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"If the target fails a Charisma saving throw, you cause the target’s shadow to come to life and reveal one of the creature’s most scandalous secrets: some fact that the target would not want widely known (GM's choice). When casting the spell, you choose whether everyone present will hear the secret, in which case the shadow speaks loudly in a twisted version of the target’s voice, or if the secret is only whispered to you. The shadow speaks Common, unless the target does not speak Common, in which case it speaks in the target's native language",
+				"If the target creature does not have a scandalous secret or does not have a spoken language, the spell fails as if the creature's saving throw had succeeded.",
+				"If the secret was spoken aloud, the target takes a −2 penalty to Charisma checks with anyone who was present when it was revealed, for the remainder of the day, in addition to any information you obtain or any scandal it provokes.",
+				"Ritual Focus. If you expend your ritual focus, the target has disadvantage on Charisma checks instead of the −2 penalty, and the target’s status score is reduced by 1 for the remainder of the day (see the Midgard Campaign Setting for status rules). At the end of the day, the target makes a Charisma saving throw against your spell save DC. If this saving throw fails, rumors of the target's indiscretion become widespread and the loss of status is permanent."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "5123e069793147cfba810f0c2805f3f2"
+		},
+		{
+			"name": "Shared Sacrifice",
+			"source": "MidgardHeroesHandbook",
+			"page": 192,
+			"level": 2,
+			"school": "V",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You join your life force to that of up to five allies. Each target takes 5 necrotic damage that can't be reduced but can be healed normally, as they channel their energy into a pool of life essence containing the donated hit points. As an action, any creature who contributed to the pool of hit points can heal another creature by touching it and channeling hit points from the pool into the injured creature. The injured creature heals hit points equal to your spellcasting ability modifier, and the hit points remaining in the pool decrease by the same amount. This can be repeated until all the hit points in the pool are gone or the spell's duration expires."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "2ad801e2eae539e4456b7f1fa3c07510"
+		},
+		{
+			"name": "Trench",
+			"source": "MidgardHeroesHandbook",
+			"page": 199,
+			"level": 1,
+			"school": "T",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "permanent"
+				}
+			],
+			"entries": [
+				"With scooping gestures, you cause the ground to slowly sink into a trench 5 feet deep, 5 feet across, and 60 feet long. The trench forms slowly enough that enemies have no chance of falling into it."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the trench's width increases by 5 feet or the length by 30 feet for each slot level above 2nd. You can make a different choice (width or length) for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "37b67839acd5e33300b16c3221c4a549"
+		},
+		{
+			"name": "Warning Shout",
+			"source": "MidgardHeroesHandbook",
+			"page": 202,
+			"level": 2,
+			"school": "D",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take immediately before a creature rolls an initiative check"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You sense danger before it happens and call out a warning to an ally. One creature you can see and that can hear you gets advantage on an initiative check made before your next turn."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "7afc09c5fb6f0d2bac7289ffb004f816"
+		},
+		{
+			"name": "Winding Key",
+			"source": "MidgardHeroesHandbook",
+			"page": 203,
+			"level": 2,
+			"school": "A",
+			"subschools": [
+				"clockwork"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "an ornately carved silver key worth 50 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You target a construct, giving it an extra action or move on each of its turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "70c1ecdf94ae067401ada9644f177584"
+		},
+		{
+			"name": "Blade of Wrath",
+			"source": "MidgardHeroesHandbook",
+			"page": 153,
+			"level": 3,
+			"school": "V",
+			"subschools": [
+				"angelic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rebuke of evil, written in Celestial"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a sword of pure white fire in your free hand. The blade is similar in size and shape to a longsword, and it lasts for the duration. If you let go of the blade it disappears, but you can call it forth again as a bonus action.",
+				"You can use your action to make a melee spell attack with the blade. On a hit, the target takes {@damage 2d8} fire damage and {@damage 2d8} radiant damage. An aberration, fey, fiend, or undead creature damaged by the blade must succeed on a Wisdom saving throw or be {@condition frightened} until the start of your next turn.",
+				"The blade sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the fire damage or the radiant damage (your choice) increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "45e7ecc8a9c5d40099cd94b2ed5eb5ef"
+		},
+		{
+			"name": "Hero’s Steel",
+			"source": "MidgardHeroesHandbook",
+			"page": 173,
+			"level": 3,
+			"school": "T",
+			"subschools": [
+				"rune"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You infuse the metal of a melee weapon with the fearsome aura of a mighty hero. The weapon's wielder has advantage on Charisma (Intimidate) checks made while aggressively brandishing the weapon. In addition, an opponent that currently has 30 or fewer hit points and is struck by the weapon must make a Charisma saving throw or be {@condition stunned} for 1 round. If the creature has more than 30 hit points but fewer than the weapon's wielder currently has, it becomes {@condition frightened} instead; a {@condition frightened} creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success. A creature that succeeds on the saving throw is immune to this effect on the same weapon for 24 hours."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "0aae4eb4388ccace48a5bb56ec76187d"
+		},
+		{
+			"name": "Mass Hobble Mount",
+			"source": "MidgardHeroesHandbook",
+			"page": 182,
+			"level": 3,
+			"school": "N",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast mass hobble mount, you make separate ranged spell attacks against up to six horses, wolves, or other four-legged or two-legged beasts being ridden as mounts within 60 feet of you. The targets can be different types of beasts and can have different numbers of legs. Each beast hit by your spell is disabled so that it can't move at its normal speed without incurring injury. An affected creature that moves more than half its base speed in a turn takes {@damage 4d6} bludgeoning damage.",
+				"This spell has no effect on a creature that your GM deems to not be a mount."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "f6e2a52643722715035de6f52732396e"
+		},
+		{
+			"name": "Soul of the Machine",
+			"source": "MidgardHeroesHandbook",
+			"level": 3,
+			"school": "A",
+			"subschools": [
+				"clockwork"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"One willing creature you touch becomes immune to mind-altering effects and psychic damage for the spell’s duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "2237d801e86ff2237ad89e5e7119dae8"
+		},
+		{
+			"name": "Binding Oath",
+			"source": "MidgardHeroesHandbook",
+			"page": 151,
+			"level": 4,
+			"school": "N",
+			"subschools": [
+				"rune"
+			],
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Lasts until dispelled",
+				"You seal an agreement between two or more willing creatures with an oath in the name of Tyr, using ritual blessings and toasts of the symbel, during which both the oath and the consequences are clearly set out. If any of the sworn break this solemn vow, they are struck by a curse. The caster can choose either an effect appropriate for bestow curse or another penalty, subject to the GM’s approval. Binding oath can't be dismissed by dispel magic, but it can be removed with dispel evil and good, remove curse, or wish. Remove curse functions only if the spell slot used to cast it is equal to or higher than the spell slot used to cast binding oath. When the oath is broken or the effect removed from one of the participants, all targets are immediately aware that this has occurred, but no other details. Depending on the nature of the oath, this may or may not invalidate the oath for the other targets. If so, the spell ends for all other affected creatures, but curse effects already bestowed remain until dispelled."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "9b49aaf4bd4165d10cbd26257832abec"
+		},
+		{
+			"name": "Blade of My Brother",
+			"source": "MidgardHeroesHandbook",
+			"page": 152,
+			"level": 4,
+			"school": "T",
+			"subschools": [
+				"rune"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "melee weapon owned by a dead ally of the target"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 4,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a melee weapon that was used by an ally who's now dead, and it animates and flies into combat. The weapon leaps into the air and flies to another ally (chosen by you and within 15 feet of you), where it enters that ally's space and never leaves their side as they move. If the weapon is forced to move more than 5 feet from the chosen ally, the spell ends. Its attack modifier equals your spellcasting level + the weapon's inherent magical bonus, if any; it receives only its own inherent magical bonus to damage. The weapon fights for up to 4 rounds, at which point it falls to the ground."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "0f863b077890029dbcad27cd6e38efb0"
+		},
+		{
+			"name": "By the Light of the Watchful Moon",
+			"source": "MidgardHeroesHandbook",
+			"page": 155,
+			"level": 4,
+			"school": "D",
+			"subschools": [
+				"Battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Regardless of the time of day or location of your battle, you command the watchful gaze of the moon to illuminate threats to your allies. Shafts of bright moonlight, each 5 feet wide, shine down from the sky (or from the ceiling if you are indoors), illuminating all threats within range, whether they're enemies seen or unseen, or traps or hidden hazards. An enemy creature that makes a successful Charisma saving throw resists the effect and is not picked out by the moon's soft glow.",
+				"The glow does not make {@condition invisible} creatures visible, but it does mark the {@condition invisible} creature's general location (somewhere within the 5-foot beam). The light moves with targets while the effect lasts, but targets that move out of the spell's range are no longer illuminated. New threats are not revealed as they enter the range or as you move; only those that were within 90 feet of you when the spell was cast are illuminated."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "7dfe6136a2cdc8e2ed68b5618ef97f9a"
+		},
+		{
+			"name": "Deva’s Wings",
+			"source": "MidgardHeroesHandbook",
+			"page": 163,
+			"level": 4,
+			"school": "T",
+			"subschools": [
+				"angelic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a wing feather from any bird marked with an angelic symbol"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a willing creature. The target grows feathery wings of pure white that grant it a flying speed of 60 feet (hover). When the creature takes the attack action, it can use a bonus action to make a melee weapon attack with the wings with a reach of 10 feet. If the wing attack hits, the target takes {@dice 1d6} plus your spellcasting ability modifier in bludgeoning damage and must make a successful Strength saving throw or fall {@condition prone}. When the spell ends, the wings disappear and the target falls if it was aloft."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can choose one additional target for each slot level above 4th."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "aef403789320db5f50e1e4d099330d2e"
+		},
+		{
+			"name": "Hirvsth’s Call",
+			"source": "MidgardHeroesHandbook",
+			"page": 174,
+			"level": 4,
+			"school": "C",
+			"subschools": [
+				"Rothenian"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You summon a spectral herd of ponies to drag off a creature that you can see within range. The target must be size Large or smaller. If it fails a Dexterity saving throw, a spectral rope wraps around the target, which falls {@condition prone} and is {@condition restrained}. It is immediately pulled 60 feet behind the galloping herd, in a direction of your choosing. The target also takes {@damage 3d6} bludgeoning damage from being dragged across the ground.",
+				"While the target is {@condition restrained} this way, it is dragged another 60 feet and takes another {@damage 3d6} bludgeoning damage at the start of each of your turns. The ponies continue running in the chosen direction for the duration of the spell. Once the direction is chosen, you can’t change it, but the ponies do swerve around impassable obstacles. They ignore difficult terrain and are immune to damage.",
+				"The {@condition restrained} creature can escape by using its action to make a successful Strength or Dexterity check against your spell DC. The spectral rope can’t be severed."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, one additional creature can be targeted for each slot level above 4th."
+					]
+				}
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "bc6d1383d3354f6680f688e540fc7c36"
+		},
+		{
+			"name": "Inspiring Speech",
+			"source": "MidgardHeroesHandbook",
+			"page": 175,
+			"level": 1,
+			"school": "E",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"The verbal component of this spell is a 10-minute-long, rousing speech by you. At the end of the speech, all your  176 allies within the area of effect who heard the speech gain a +1 bonus on attack rolls and have advantage on saving throws against effects that cause the {@condition charmed} or {@condition frightened} condition for 1 hour. Additionally, each recipient gains temporary hit points equal to your spellcasting ability modifier. If you move farther than 1 mile from your allies or you die, this spell ends. A character can be affected by only one inspiring speech at a time; subsequent, overlapping castings have no additional effect and don't extend the spell's duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "70c66ade3aca971845e092db3bf6c115"
+		},
+		{
+			"name": "Blazing Chariot",
+			"source": "MidgardHeroesHandbook",
+			"page": 153,
+			"level": 5,
+			"school": "C",
+			"subschools": [
+				"angelic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small golden wheel worth 250 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Calling upon the might of the angels, you conjure a flaming chariot made of gold and mithral in an unoccupied space you can see within range. Two horses made of fire and light pull the chariot. You and up to three other Medium or smaller creatures you designate can board the chariot (at the cost of 5 feet of movement) and are unharmed by the flames. Any other creature who touches the chariot or hits it or a creature riding in it with a melee attack while within 5 feet of the chariot takes {@damage 3d6} fire damage and {@damage 3d6} radiant damage. The chariot is AC 18, has 50 hit points, is immune to fire, poison, psychic, and radiant damage, and is resistant to all other nonmagical damage. The horses are not separate creatures but are part of the chariot. The chariot vanishes if it's reduced to 0 hit points, and any creature riding it falls. The chariot has a speed of 50 feet and a fly speed of 40 feet.",
+				"On your turn, you can guide the chariot in place of your own movement. You can direct it to Dash, Disengage, or Dodge by using your bonus action. As an action, you can cause the chariot to overrun creatures in its path. For the remainder of the turn, the chariot can enter a hostile creature’s space. The creature takes damage as if it touched the chariot and must make a successful Strength saving throw or be knocked {@condition prone}."
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "9c2892bb64f94560f88677f0692b56f3"
+		},
+		{
+			"name": "Holy Ground",
+			"source": "MidgardHeroesHandbook",
+			"page": 174,
+			"level": 5,
+			"school": "V",
+			"subschools": [
+				"battle"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a vial of holy water that is consumed in the casting"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You invoke the divine powers to bless the ground within 60 feet of you. Creatures slain in the area of effect cannot be raised as undead by magic or by the abilities of monsters, even if the corpse is later removed from the area. Any spell of 4th level or lower that would summon or animate undead within the area fails automatically. Such spells cast with spell slots of 5th level or higher function normally."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the level of spells that are prevented from functioning increases by 1 for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "98cfa1bc7e605a2868d227500f56a9c8"
+		}
+	]
+}
