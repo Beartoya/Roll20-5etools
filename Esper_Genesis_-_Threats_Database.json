@@ -1,0 +1,116 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EsperGenesis-ThreatsDatabase",
+				"abbreviation": "EGTD",
+				"full": "Esper Genesis - Threats Database",
+				"url": "",
+				"authors": [
+					"Alligator Alley Entertainment"
+				],
+				"convertedBy": [
+					"The Bear"
+				]
+			}
+		],
+		"dateAdded": 1591007712,
+		"dateLastModified": 1591007712
+	},
+	"monster": [
+		{
+			"name": "Aberrant",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aberrant"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 14,
+			"int": 7,
+			"wis": 13,
+			"cha": 7,
+			"skill": {
+				"athletics": "+3",
+				"perception": "+3",
+				"stealth": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands Common and Terran but can't speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Chrysalis Aberration",
+					"entries": [
+						"The aberrant has one of the following special features, determined randomly by rolling a {@dice d20} or chosen by the GM. See the Chrysalis Aberration table in the threat description."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aberrant makes two attacks: one with its bite and one with its claw, or two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
