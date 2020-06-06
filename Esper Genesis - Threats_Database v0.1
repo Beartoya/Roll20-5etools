@@ -1,0 +1,7074 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EsperGenesis-ThreatsDatabase",
+				"abbreviation": "EGTD",
+				"full": "Esper Genesis - Threats Database",
+				"url": "",
+				"authors": [
+					"Alligator Alley Entertainment"
+				],
+				"convertedBy": [
+					"The Bear"
+				]
+			}
+		],
+		"dateAdded": 1591355790,
+		"dateLastModified": 1591355790
+	},
+	"monster": [
+		{
+			"name": "Aberrant",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aberrant"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 14,
+			"int": 7,
+			"wis": 13,
+			"cha": 7,
+			"skill": {
+				"athletics": "+3",
+				"perception": "+3",
+				"stealth": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands Common and Terran but can't speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Chrysalis Aberration",
+					"entries": [
+						"The aberrant has one of the following special features, determined randomly by rolling a {@dice d20} or chosen by the GM. See the Chrysalis Aberration table in the threat description."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aberrant makes two attacks: one with its bite and one with its claw, or two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aberrant Brute",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"aberrant"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d10 + 28",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 7,
+			"con": 19,
+			"int": 7,
+			"wis": 11,
+			"cha": 7,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands Common and Terran but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Chrysalis Aberration",
+					"entries": [
+						"The aberrant has one of the following special features, determined randomly by rolling a {@dice d20} or chosen by the GM. See the Chrysalis Aberration table in the threat description."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"T"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aberrant Controller",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"aberrant"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 17,
+			"int": 14,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common and Terran"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The aberrant controller's channeling ability is Intelligence (save {@dc 13}). It can innately use the following talents:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell eclipse|EsperGenesis-CoreManual}",
+							"{@spell nondetection|EsperGenesis-CoreManual}",
+							"{@spell unravel effect|EsperGenesis-CoreManual}"
+						],
+						"1e": [
+							"{@spell domination|EsperGenesis-CoreManual}",
+							"{@spell frigid mist|EsperGenesis-CoreManual}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Chrysalis Aberration",
+					"entries": [
+						"The aberrant controller has one of the following special features, determined randomly by rolling a {@dice d20} or chosen by the GM. See the Chrysalis Aberration table in the threat description."
+					]
+				},
+				{
+					"name": "Esper Resistance",
+					"entries": [
+						"The controller has advantage on saving throws versus talents, techniques, and esper effects."
+					]
+				},
+				{
+					"name": "Sorium Armaments",
+					"entries": [
+						"The aberrant's weapon attacks are considered forging attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aberrant makes two attacks: one with its claws and one with its bite."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Call to Arms",
+					"entries": [
+						"Each aberrant of the controller's choice that is within 30 feet of it, can hear it, and not already affected by Call to Arms gain advantage on attack rolls until the start of the controller's next turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aerial Stalker",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 21",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 16,
+			"int": 6,
+			"wis": 11,
+			"cha": 7,
+			"senses": [
+				"infravision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The stalker makes two attacks with its claws or two attacks with its arm lasers."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Arm Laser.",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 60/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) radiant damage"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Alphalite",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"ALOMU",
+				"Common"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Stun Rod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage. If the target is a creature other than an automaton or construct, it must succeed on a {@dc 10} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Light Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Alphalite Builder",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10 + 3",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 13,
+			"int": 9,
+			"wis": 11,
+			"cha": 3,
+			"skill": {
+				"athletics": "+6"
+			},
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"ALOMU",
+				"Common"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Alphalite Custodian",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 12,
+			"int": 12,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Punch",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aluphax",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aluphax"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"light trooper"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 9,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"athletics": "+5",
+				"intimidation": "+2"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"can speak telepathically to other Aluphax"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the aluphax can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Power Hammer",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Power Rifle",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/240 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Aluphax Battlemaster",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aluphax"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"heavy trooper"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 54
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 17,
+			"int": 15,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"intimidation": "+6",
+				"survival": "+3"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"can speak telepathically to other Aluphax"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The aluphax’s channeling ability is Charisma (save {@dc 13}; +5 to hit with melding talents). It can use the following talents:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell push|EsperGenesis-CoreManual}"
+							]
+						}
+					},
+					"daily": {
+						"3": [
+							"{@spell blur|EsperGenesis-CoreManual}",
+							"{@spell phase step|EsperGenesis-CoreManual}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the aluphax can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aluphax makes two grandblade attacks or two autorifle attacks."
+					]
+				},
+				{
+					"name": "Grandblade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Autorifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/240 ft., one target or 10’ cube, burst fire DC: 13 {@h}7 ({@damage 1d10 + 2}) piercing damage "
+					]
+				},
+				{
+					"name": "Burst Fire {@recharge 5}",
+					"entries": [
+						"The aluphax fires a spray of bullets in a 10-foot cube area within 80 feet of it that it can see. Each target in that area must succeed on a {@dc 12} burst save or take 5 ({@damage 1d10}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The aluphax adds 3 to its AC against one melee attack that would hit it. To do so, the aluphax must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Aluphax Avenger",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aluphax"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"power armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 16,
+			"int": 14,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"con": "+6",
+				"int": "+5",
+				"wis": "+5"
+			},
+			"skill": {
+				"athletics": "+6",
+				"intimidation": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"can speak telepathically to other Aluphax"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The aluphax’s channeling ability is Charisma (save {@dc 13}; +5 to hit with melding talents). It can use the following talents:"
+					],
+					"will": [
+						"{@spell push|EsperGenesis-CoreManual}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dark empowerment|BoLS}"
+						],
+						"3": [
+							"{@spell blur|EsperGenesis-CoreManual}",
+							"{@spell phase step|EsperGenesis-CoreManual}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the aluphax can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Improved Critical",
+					"entries": [
+						"The avenger scores a critical hit on a 19-20 when using their energy blade."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"The aluphax makes two energy blade attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage, and the target must succeed on a {@dc 15} Constitution save or take 18 ({@damage 4d8}) poison damage and become {@condition poisoned} until the end of their next turn."
+					]
+				},
+				{
+					"name": "Energy Blade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) slashing damage plus 10 ({@damage 3d6}) radiant damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Aragell",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d10 + 14",
+				"average": 52
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 5,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"passive": 13,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The aragell has advantage on an attack roll against a creature if at least one of the aragell's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the aragell moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the aragell can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aragell makes two claw attacks or one claw and one bite attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics",
+				"Pounce"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Atoru",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "giant",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 60",
+				"average": 138
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 21,
+			"int": 11,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"con": "+8",
+				"wis": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+9",
+				"insight": "+5",
+				"perception": "+5"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 15,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"can communicate with other atoru by use of a sign language shared between them"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The atoru's channeling ability is Wisdom. It can innately use the following talents:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell tricky fingers|EsperGenesis-CoreManual}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell feather fall}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Keen Sight and Hearing",
+					"entries": [
+						"The atoru has advantage on Wisdom (Perception) checks that rely on seeing and hearing."
+					]
+				},
+				{
+					"name": "Stunning Strike {@recharge 5}",
+					"entries": [
+						"When the atoru hits a target with a melee weapon attack, the target must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of the target's next turn."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the atoru is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The atoru makes two melee attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry and Counter",
+					"entries": [
+						"The atoru adds 4 to its AC against one melee or ranged weapon attack that would hit it. To do so, it must be able to see the attacker. If the attack misses, the atoru can make one melee attack against the attacker if it is within its reach."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Atoru Galleem (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Bachorta",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"bachorta"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"piecemeal armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common and one other language (usually Lingo)"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The bachorta has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The bachorta can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Axe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Light Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Bachorta Leader",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"bachorta"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"military jacket and reinforced shield"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"stealth": "+6",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common and one other language (usually Lingo)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The bachorta has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The bachorta can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bachorta makes two melee or two ranged attacks."
+					]
+				},
+				{
+					"name": "Shortblade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Grapple Line {@recharge}",
+					"entries": [
+						"Grapple Line (Recharge 6). Ranged Weapon Attack: {@hit 4} to hit, range 60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. If target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 14}) and must also succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. While the target is {@condition grappled}, the bachorta can expend a bonus action to make the target repeat the saving throw. On a failed save, the target is knocked {@condition prone}. Until this grapple ends, the creature cannot move more than 60 ft. away from the bachorta and the bachorta can't use its grapple line on any other target."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			]
+		},
+		{
+			"name": "Bahtera (Azurite Bahtera) WIP",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Bahtera (Baryte Bahtera)  WIP",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Bahtera (Jadeite Bahtera)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"Primordial"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"hide plating"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 60",
+				"average": 126
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 20,
+			"int": 14,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"dex": "+7",
+				"con": "+9",
+				"wis": "+8"
+			},
+			"skill": {
+				"insight": "+12",
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				{
+					"special": "and slashing from mundane attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Bahtera"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The bahtera's channeling ability is Wisdom (save {@dc 16}). It can innately use the following talents: mend (as a rank 5 power)"
+					],
+					"will": [
+						"{@spell cause fear|XGE}",
+						"{@spell charm person}",
+						"{@spell detect magic}",
+						"{@spell speak with animals}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell cure wounds}",
+							"{@spell invisibility}",
+							"{@spell suggestion}"
+						],
+						"1e": [
+							"{@spell fly}",
+							"{@spell greater restoration}",
+							"{@spell telekinesis}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Esper Resistance",
+					"entries": [
+						"The bahtera has advantage on saving throws versus talents, techniques, and esper effects."
+					]
+				},
+				{
+					"name": "Natural Camouflage",
+					"entries": [
+						"The bahtera has advantage on Dexterity (Stealth) checks made to hide in natural terrain."
+					]
+				},
+				{
+					"name": "Quick Phase {@recharge 4}",
+					"entries": [
+						"As a bonus action, the bahtera can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bahtera makes two gemstone blade attacks. The bahtera can use one innate power in place of one of these attacks."
+					]
+				},
+				{
+					"name": "Gemstone Blade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail Spikes",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 60/240 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Bahtera (Citrine Bahtera) WIP",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"primordial"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Bahtera (Rhodolite Bahtera) WIP",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Bonded Companion (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Borlakan Sky Saw",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d12 + 27",
+				"average": 85
+			},
+			"speed": {
+				"fly": 60,
+				"canHover": false,
+				"swim": 50
+			},
+			"str": 21,
+			"dex": 12,
+			"con": 17,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": []
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the borlakan moves at least 20 feet straight toward a target and then hits it with a rostrum attack on the same turn, the target takes an extra 7 ({@damage 2d6}) damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The borlakan makes two attacks: one with its rostrum and one with its fin."
+					]
+				},
+				{
+					"name": "Rostrum",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Fin",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Casarian Ripper",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 16,
+			"int": 7,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"acid"
+					]
+				},
+				{
+					"resist": [
+						"poison"
+					]
+				}
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The ripper has advantage on an attack roll against a creature if at least one of the ripper’s allies is within 5 feet of the creature and the ally isn’t {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the ripper moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the ripper can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ripper makes two claw attacks. It can replace one of those attacks with a bite attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. If the target is a creature other than an automaton or construct, it must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"Claws. Melee Weapon Attack: {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics",
+				"Pounce"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"prone"
+			]
+		},
+		{
+			"name": "Ceti Snapper",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "S",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d6 + 12",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 7,
+			"wis": 11,
+			"cha": 17,
+			"skill": {
+				"deception": "+5",
+				"stealth": "+6"
+			},
+			"passive": 10,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Deceiving Form",
+					"entries": [
+						"The snapper has advantage on any Charisma (Deception) checks made to conceal its true nature and instead appear as a harmless animal."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The snapper has advantage on an attack roll against a creature if at least one of the snapper’s allies is within 5 feet of the creature and the ally isn’t {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 3 ({@damage 1d6}) poison damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for the next 24 hours."
+					]
+				},
+				{
+					"name": "Beguiling Pheromone {@recharge}",
+					"entries": [
+						"The snapper targets up to three humanoids or beasts that it can see within 30 feet of it. If the target can see the snapper, it must succeed on a {@dc 13} Wisdom saving throw or become {@condition charmed}. The {@condition charmed} creature regards the snapper as a trusted friend to be heeded and protected. Although the target isn’t under the snapper’s control, it takes the snapper’s requests or actions in the most favorable way it can.",
+						"Each time the snapper or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the snapper dies, is on a different planet from the target, or ends the effect as a bonus action. If a target’s saving throw is successful, the target is immune to that snapper’s Beguiling Pheromone for the next 24 hours. ",
+						"The snapper can have no more than three humanoids or beasts {@condition charmed} at a time."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Coloterim (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Creeper (Frost Creeper) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Creeper (Sand Creeper) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Creeper (Tar Creeper) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Cronosyte (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Cronosyte Tender (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Defiler (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Aseni Explorer",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dendus"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"einforced mesh"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 12",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 16,
+			"int": 14,
+			"wis": 10,
+			"cha": 11,
+			"skill": {
+				"insight": "+2",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Dendusi",
+				"Skrolath"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The aseni's channeling ability is Intelligence (save {@dc 12}). It can innately use the following powers:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell identify}"
+					],
+					"daily": {
+						"1": [
+							"{@spell bind step|EsperGenesis-CoreManual}",
+							"{@spell daze|EsperGenesis-CoreManual}",
+							"{@spell disguise self}",
+							"{@spell fly}",
+							"{@spell phase shift|EsperGenesis-CoreManual}",
+							"{@spell spatial sever|EsperGenesis-CoreManual}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Shortblade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. "
+					]
+				},
+				{
+					"name": "Short Rifle",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 70/210 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Aseni Nomad (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Aseni Shaper (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drake (Fire Drake (WIP))",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drake (Ice Drake (WIP))",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drake (Sand Drake (WIP))",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drake (Shadow Drake (WIP))",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drake (Stone Drake (WIP))",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Drone (Bit Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d4 + 4",
+				"average": 10
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"senses": [
+				"infravision 90 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The drone provokes no opportunity attacks when it flies out of an enemy’s reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pincer",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Poison Spike",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 60/120 ft., one target. {@h}1 piercing damage and the target must succeed on a {@dc 10} Constitution saving throw or become {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Stealth Mode",
+					"entries": [
+						"The drone turns {@condition invisible} until it attacks or until its concentration ends. Anything the {@condition invisible} drone is carrying or wearing is {@condition invisible} as long as it remains in contact with the drone."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Drone (Armored Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"reinforced armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 13,
+			"int": 1,
+			"wis": 9,
+			"cha": 1,
+			"skill": {
+				"athletics": "+4"
+			},
+			"passive": 9,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the drone moves at least 20 feet straight toward a target and then hits it with a ram spike attack on the same turn, the target takes an extra 7 ({@damage 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram Spike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Rifle Mount",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 50/150 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Drone (Blade Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8",
+				"average": 13
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 10,
+			"int": 1,
+			"wis": 11,
+			"cha": 1,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Scythe Blade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Gun Mount",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Drone (Strike Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 4",
+				"average": 11
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 14,
+			"int": 1,
+			"wis": 11,
+			"cha": 1,
+			"skill": {
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The drone doesn't provoke opportunity attacks when if flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Charged Wingblade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 slashing damage plus 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Gun Mount",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 60/180 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Drone (Surveillance Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "3d6 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 13,
+			"int": 1,
+			"wis": 17,
+			"cha": 1,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"infravision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Keen Detection",
+					"entries": [
+						"The drone has advantage on Wisdom (Perception) checks that rely on sight and hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blade Attachment",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Blade Launcher",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 50/150 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Drone (Supply Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 14,
+			"int": 1,
+			"wis": 14,
+			"cha": 1,
+			"skill": {
+				"medicine": "+4"
+			},
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Internal Storage",
+					"entries": [
+						"The drone can hold additional gear and is considered to be a Large creature for the purpose of determining its carrying capacity."
+					]
+				},
+				{
+					"name": "Terrain Adaptability",
+					"entries": [
+						"The drone ignores difficult terrain while moving."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Electro-prod",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}1 bludgeoning damage plus 5 ({@damage 2d4}) lightning damage."
+					]
+				},
+				{
+					"name": "Gun Mount",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 60/180 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Drone (Tactical Drone)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 15,
+			"int": 1,
+			"wis": 14,
+			"cha": 1,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The drone has advantage on an attack roll against a creature if at least one of the drone’s allies is within 5 feet of the creature and the ally isn’t {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blade Attachment",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Gun Mount",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Evargun",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"netherant"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 15,
+			"dex": 19,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"save": {
+				"dex": "+6",
+				"con": "+4",
+				"wis": "+3",
+				"cha": "+2"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"cold"
+					]
+				},
+				{
+					"resist": [
+						{
+							"special": "bludgeoning, piercing, and slashing from mundane attacks"
+						}
+					]
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"Umbriss",
+				"telepathy 120 ft."
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Corruption Field",
+					"entries": [
+						"A creature that touches the evargun or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The evargun has advantage on saving throws versus talents, techniques, and esper effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The evargun makes two melee or two ranged attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage. The target must succeed on a {@dc 12} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Dark Bolt",
+					"entries": [
+						"Ranged Power Attack: {@hit 6} to hit, range 90 ft., one target. {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature other than a netherant, it must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 1d10}) necrotic damage at the start of each of its turns. The creature can repeat the saving throw on each of its turns, ending the effect on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Evargun Controller (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "F'narg (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Forged Constructs",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"cold"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"one determined by its creator",
+				"usually Common"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Sorium Armaments",
+					"entries": [
+						"The constuct's weapon attacks are considered to be forging attacks, bypassing any defenses that grant resistances to mundane weapons."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blade Attachment",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Arm Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Gamaroid",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 15,
+			"int": 7,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"athletics": "+6",
+				"perception": "+2"
+			},
+			"senses": [
+				"infravision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"ALOMU",
+				"telepathy 60 ft. with other gamaroids"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Encrypted Software",
+					"entries": [
+						"The gamaroid has advantage on Wisdom saving throws against software hacking utilities such as spoofing programs."
+					]
+				},
+				{
+					"name": "Multi-unit Defense",
+					"entries": [
+						"The gamaroid has advantage on attack rolls and Dexterity saving throws while standing within 5 feet of a functioning gamaroid ally."
+					]
+				},
+				{
+					"name": "Shielded Circuits",
+					"entries": [
+						"The gamaroid has advantage on saving throws against esper powers, as well as to resist becoming impaired or {@condition paralyzed}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gamaroid makes two melee or two ranged attacks."
+					]
+				},
+				{
+					"name": "Blade Attachment",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Micro-Autocannon",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/400 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Burst Fire {@recharge 5}",
+					"entries": [
+						"The gamaroid fires a spray of bullets in a 10-foot cube area within 80 feet of it that it can see. Each target in that area must succeed on a {@dc 13} burst save or take 4 ({@damage 1d8}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Ganaray (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Glahg",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d10 + 27",
+				"average": 76
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"athletics": "+6",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Glahg",
+				"Valna"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The glahg has advantage on Wisdom (Perception) checks that rely on hearing and smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The glahg has advantage on an attack roll against a creature if at least one of the glahg's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The glahg's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The glahg makes two attacks: one with its claws and one with its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Bite. Melee Weapon Attack: {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Gorvax",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gorvax"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"infravision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Gorvax"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The gorvax's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gorvax makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage.and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Hadraxis Commoner",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"hadraxis"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 5",
+				"average": 32
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"history": "+2",
+				"perception": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Hadraxis"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hadraxis can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hadraxis makes two attacks with its claws."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage, and the target is {@condition grappled} (escape {@dc 11}). The hadraxis has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		},
+		{
+			"name": "Hadraxis Guardian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Hadraxis Noble (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ilarios (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ilarios Nightrunner (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ivaril (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ivaril (Swarm of Ivaril) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ivaril Destroyer (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Bane Kanasi)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d10 + 27",
+				"average": 76
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 8,
+			"save": {
+				"str": "+8",
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+8",
+				"perception": "+6"
+			},
+			"senses": [
+				"infravision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				{
+					"special": "bludgeoning, piercing, and slashing from mundane attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Kanasi"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The kanasi has advantage on saving throws versus esper powers and effects."
+					]
+				},
+				{
+					"name": "Infrared Sensors",
+					"entries": [
+						"The kanasi’s infravision can see through up to 10 feet of nonmetallic solid material."
+					]
+				},
+				{
+					"name": "Organic Detection",
+					"entries": [
+						"The kanasi’s sensors can detect the presence of living organic creatures up to 5 miles away. It knows the general direction they’re in but not their exact locations."
+					]
+				},
+				{
+					"name": "Sorium Armaments",
+					"entries": [
+						"The kanasi's weapon attacks are considered forging attacks, bypassing any defenses that grant resistances to mundane weapons."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kanasi makes two vibration axe attacks or two lancet launcher attacks."
+					]
+				},
+				{
+					"name": "Vibration Axe",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Lancet Launcher",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 80/240 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Fire Stream {@recharge 5}",
+					"entries": [
+						"The bane kanasi launches a jet of alchemical fire from its face in a line 30 feet long and 5 feet wide. must make a {@dc 14} Dexterity saving throw, taking 26 ({@damage 4d12}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Beams {@recharge 5}",
+					"entries": [
+						"The bane kanasi emits a stream of multicolored lasers in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 24 ({@damage 7d6}) radiant damage on a failed save, or half as much damage on a successful one. In addition, those that failed their save are {@condition blinded} until the end of the kanasi's next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Kanasi (Breacher Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Fray Kanasi ) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Hunter Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Reaver Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Scourge Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Stalker Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar Tribal Warrior (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar Elite Guard (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar Wavebender (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kleesh",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d10 + 16",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 20,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 15,
+			"int": 5,
+			"wis": 12,
+			"cha": 4,
+			"senses": [
+				"blindsight 30 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"acid",
+				"cold"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Tenacious",
+					"entries": [
+						"The kleesh has advantage on saving throws against being {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kleesh makes two attacks: one with its bite and one with its tail stinger."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the kleesh can't bite another target."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The kleesh makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the kleesh, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the kleesh's turns.",
+						"If the kleesh dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tail Stinger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 5 ({@damage 1d10}) poison damage and the target must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for 1 hour."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Greater Kleesh (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kotatu (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kotatu Alpha (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kotatu (Young Kotatu) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kreidren (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kreidren Elder (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kanasi (Stalker Kanasi) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar Elite Guard (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kentrodar Wavebender (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Kleesh (Greater Kleesh) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Lorendi",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Lorendi"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"infiltration suit"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"athletics": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Nesieve"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Innate Powers",
+					"headerEntries": [
+						"The lorendi's channeling ability is Charisma (save {@dc 11}). It can innately use the following talents."
+					],
+					"will": [
+						"{@spell detect magic}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell blindness/deafness}",
+							"{@spell clean zone|EsperGenesis-CoreManual}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Lorendi Resilience",
+					"entries": [
+						"The lorendi has advantage on saving throws against poison, as well as to resist being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"name": "Shadow Camouflage",
+					"entries": [
+						"The lorendi has advantage on Dexterity (Stealth) checks made to hide."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortblade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft. one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. "
+					]
+				},
+				{
+					"name": "Light Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft. one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "One with the Circle (Recharges after a Short of Long Rest)",
+					"entries": [
+						"A faint circular aura appears around the lorendi's form. The lorendi gains advantage to all Strength and Dexterity ability checks and saving throws until the end of their next turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Lorendi Aetherwalker (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Lorendi Harbinger (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Lorendi Machinist (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Malegorian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Malegorian Warlord (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Martenka",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"martenka"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"light trooper"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d6 + 4",
+				"average": 18
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 15,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"history": "+4",
+				"perception": "+3",
+				"persuasion": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common plus any two languages"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Beast Speech",
+					"entries": [
+						"The martenka can comprehend and verbally communicate with terrestrial beasts."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The martenka has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The martenka can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft. one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. "
+					]
+				},
+				{
+					"name": "Light Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft. one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Mecharoid (Cirrus Mecharoid)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d10 + 16",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 8,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"infravision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"ALOMU"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mecharoid makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Disruptor Blades",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) necrotic damage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw or become wounded. The wounded target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the wound reduces the target's hit point maximum to 0, the target dies and its body disintegrates within one hour. The wound persists until removed by restore pattern or similar effect. "
+					]
+				},
+				{
+					"name": "Arm Cannon",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/300 ft. one target. {@h}9 ({@damage 1d12 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Pulse Charge {@recharge}",
+					"entries": [
+						"The mecharoid fires a pulse beam at one target it can see within 60 ft. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or be knocked {@condition prone}. If the target fails the saving throw by 5 or more, it is also {@condition stunned} until the end of the mecharoid's next turn. If the target is a vehicle or a construct, it must succeed on the saving throw or become impaired until the end of the mecharoid's next turn. If the target fails the saving throw by 5 or more, it instead becomes {@condition paralyzed} for the same duration."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			]
+		},
+		{
+			"name": "Mecharoid (Durasteel Mecharoid)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"formula": "12d10 + 48",
+				"average": 114
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 21,
+			"dex": 11,
+			"con": 19,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"arcana": "+3",
+				"persuasion": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"infravision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"ALOMU"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Charging Attack",
+					"entries": [
+						"If the mecharoid moves at least 20 feet straight toward a creature and hits it with a slam attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the mecharoid can make one kick attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d12 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Spike Launcher",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 40/120 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Shockwave {@recharge 5}",
+					"entries": [
+						"The mecharoid unleashes a spiral of crackling, high-voltage energy in a 30-foot cone. Each target in that area must make a {@dc 15} Constitution saving throw, taking 22 ({@damage 5d8}) lightning damage on a failed save or half as much on a successful one. In addition, a creature that fails their save is {@condition stunned} until the end of their next turn. "
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Mecharoid (Stormfury Mecharoid) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Mecharoid (Prime-Delta Mecharoid) (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Mecharoid (Titanium Mecharoid)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"armored frame"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 14,
+			"int": 8,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"ALOMU"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the mecharoid hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Power Hammer",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Gun Mount",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, reach 50/150 ft.,  one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Nagorok (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Namruda (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Namruda Chieftain (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Ozal (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Phase Beast",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"The phase beast has advantage on Dexterity (Stealth) checks made to hide."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The phase beast has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Teleport {@recharge 5}",
+					"entries": [
+						"The beast teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the beast can make one bite attack as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Power Sprite (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Pyagark",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "S",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d6 + 6",
+				"average": 27
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 12,
+			"int": 7,
+			"wis": 13,
+			"cha": 5,
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The pyagark has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The The pyagark doesn't provoke an opportunity attack when it flies out of an enemy's reach ."
+					]
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The pyagark has advantage on Wisdom (Perception) checks that rely on sight and smell."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The pyagark can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Flyby",
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Quantum Worm",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 18",
+				"average": 58
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Ethereal Shift",
+					"entries": [
+						"As a bonus action, the worm can shift into an ethereal state, or vice versa."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The worm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Goo Walker",
+					"entries": [
+						"The worm ignores movement restrictions caused by its quantum goo ability."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must make a {@dc 13} Constitution saving throw or become {@condition poisoned} for 1 hour. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Quantum Goo {@recharge 5}",
+					"entries": [
+						"The worm can expend its action to excrete a semi-translucent goo in a 5-foot radius. Each creature that starts its turn in the affeected area must succeed on a {@dc 13} Strength check or be {@condition restrained} by the goo. As an action, the {@condition restrained} creature can make a {@dc 13} Strength check, escaping from the goo on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Reisa Constructor (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Reisa Guardian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Reisa War-Bot (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Reisa Striker (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Seethe Flayer (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Seethe Gorger (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Seethe Screecher (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Seethe Stinger (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Shadow Technocrat (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Shadowtech Samurai",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"fusion armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 12",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90,
+				"canHover": false
+			},
+			"str": 17,
+			"dex": 13,
+			"con": 12,
+			"int": 13,
+			"wis": 16,
+			"cha": 15,
+			"save": {
+				"dex": "+4",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+6",
+				"intimidation": "+5",
+				"persuasion": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Lingo"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The samurai doesn’t provoke an opportunity attack when it flies out of an enemy’s reach."
+					]
+				},
+				{
+					"name": "Esper Resistance",
+					"entries": [
+						"The samurai has advantage on saving throws against esper powers and effects."
+					]
+				},
+				{
+					"name": "Sorium Armaments",
+					"entries": [
+						"The samurai's weapon attacks are considered forging attacks, bypassing resistances to mundane weapons."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The samurai makes three plasma longblade attacks or two proton beam attacks."
+					]
+				},
+				{
+					"name": "Plasma Longblade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) fire damage."
+					]
+				},
+				{
+					"name": "Proton Beam",
+					"entries": [
+						"Ranged Power Attack: {@hit 6} to hit, range 90 ft., one target. {@h}18 ({@damage 4d8}) radiant damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"F",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Shadowtech Guardian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Spyder (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Stossian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Stossian Pack Leader (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Stossian Battlelord (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Synthantic Security Director",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "cyborg",
+						"prefix": "any"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"military jacket"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 32
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"insight": "+3",
+				"intimidation": "+3",
+				"perception": "+3"
+			},
+			"senses": [
+				"infravision 60 ft.",
+				"darkvision 90 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"any one language",
+				"usually Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cybernetic Hybrid",
+					"entries": [
+						"The synthantic is subject to the effects of any attack or power that affects automatons and constructs."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The commander attacks twice with its warblade or twice with its autorifle."
+					]
+				},
+				{
+					"name": "Warblade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/250 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Burst Fire {@recharge 5}",
+					"entries": [
+						"The commander fires a spray of bullets in a 10-foot cube area within 80 feet of it that it can see. Each target in that area must succeed on a {@dc 13} burst save or take 5 ({@damage 1d10}) piercing damage."
+					]
+				},
+				{
+					"name": "Proton Beam {@recharge 5}",
+					"entries": [
+						"The synthantic fires an energy beam in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 11} Dexterity saving throw, taking 18 ({@damage 4d8}) radiant damage on a failed save or half as much on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Synthantic Heavy Assault Trooper (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Taarjasa (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Talvarius (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Tremial (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Tserka Worker (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Tserka Guardian (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Virtual Echo (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Void: Veil Reaver",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"netherant"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 16,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"fire",
+				{
+					"special": "bludgeoning, piercing, and slashing from mundane weapons."
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Umbriss"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The veil reaver has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the veil reaver surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+					]
+				},
+				{
+					"name": "Shadow Sight",
+					"entries": [
+						"Darkness from technological effects or esper powers doesn’t impede the veil reaver's darkvision."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the veil reaver can take the Hide action as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The reaver makes two disruptor blade attacks or two shadow bolt attacks. It can use its shadow claw in place of one disruptor blade attack."
+					]
+				},
+				{
+					"name": "Shadow Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Disruptor Blade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Shadow Bolt",
+					"entries": [
+						"Ranged Power Attack: {@hit 4} to hit, range 120/360 ft., one target. {@h}10 ({@damage 3d6}) necrotic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Void Ravager (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Void Shadow",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"netherant"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"special": "bludgeoning, piercing, and slashing from mundane attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Umbriss"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The void shadow can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the void shadow can take the Hide action as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Essence Drain",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target’s Strength score is reduced by {@dice 1d4}. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+						"If a humanoid or beast dies from this attack, the corpse rises as a new void shadow {@dice 1d4} hours later."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Void Specter (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Vorkata (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Wolog (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Xamaron Thrall (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Xamaron Soldier (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Xamaron Centurion (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		},
+		{
+			"name": "Xamaron Monarch (WIP)",
+			"source": "EsperGenesis-ThreatsDatabase",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
+		}
+	]
+}
