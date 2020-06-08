@@ -1,0 +1,440 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NerzugalsExtendedBestiary",
+				"abbreviation": "NEB",
+				"full": "Nerzugal's Extended Bestiary",
+				"url": "https://www.drivethrurpg.com/product/205000/Nerzugals-Extended-Bestiary",
+				"authors": [
+					"Nerzugal Role-Playing"
+				],
+				"convertedBy": [
+					"BlackBear"
+				]
+			}
+		],
+		"dateAdded": 1591588352,
+		"dateLastModified": 1591588352
+	},
+	"monster": [
+		{
+			"name": "Abomination From The Deep",
+			"source": "NerzugalsExtendedBestiary",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 32",
+				"average": 120
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 60
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 13,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The abomination can breathe air and water."
+					]
+				},
+				{
+					"name": "Natural Camouflage",
+					"entries": [
+						"The abomination has advantage on stealth checks in aquatic environments."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The abomination makes three attacks: two with its claws and one with its bite."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, and the target must succeed on a {@dc 14} Constitution saving throw against being {@condition paralyzed}. On a failed save, the creature’s body begins to go numb and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition paralyzed} for 1 hour."
+					]
+				},
+				{
+					"name": "Putrid Water Spray {@recharge 5}",
+					"entries": [
+						"The abomination unleashes a spray of foul water in a 30-foot line. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 16 ({@damage 3d10}) necrotic damage and 16 ({@damage 3d10}) poison damage on a failed save, or half as much damage on a successful one. The abomination can track any creature affected by this ability up to 5 miles away for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Standing at nearly six feet tall, the abomination has a head that resembles that of a frog but a mouth filled with razor sharp teeth. Its build is that of a humanoid, but it has skin that is dark, slick, and smooth. It typically walks on two legs, but when it charges after a victim it will go down on all fours, digging into the ground and launching itself forward with its powerful legs. Its webbed hands and feet both end in vicious claws that can tear through flesh and even metal. These combined with the guiding fin on its back allow the abomination to swim at incredible speeds. Being in the water with one of these entities is certain death.",
+					"Toxic Bite. The abomination produces a potent neurotoxin that it delivers via its bite, paralyzing victims so that it can drag them back to its lair far beneath the surface of the water. The lucky ones drown helplessly as the abomination pulls them down into the depths. The unlucky ones are feasted upon while still alive, unable to move their vocal chords enough to call out for help or even cry out in pain. When especially hungry, the abomination has been known to bury victims up to their neck in mud and allow them to call for help. The abomination will then devour those that come to the rescue.",
+					"Manifestation of Nature. Many believe these abominations are the result of nature retaliating against the misuse of its resources. A human corpse left to decay in the lake is claimed by a wrathful nature spirit, infused with the sinful waste of the villagers, and unleashed back upon them. There is only ever one abomination living in a single body of water at a time and it is always in fresh water that has been heavily polluted. Some villagers will attempt to make things right by cleaning up these bodies of water and imploring others to do the same.",
+					"These villagers are typically the first to disappear."
+				]
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"restrained"
+			]
+		},
+		{
+			"name": "Caustic Alchemist",
+			"source": "NerzugalsExtendedBestiary",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 10,
+			"cha": 9,
+			"passive": 10,
+			"immune": [
+				"acid"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Acidic Flesh",
+					"entries": [
+						"Ranged projectiles that hit the alchemist are dissolved and cannot be recovered."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The alchemist makes two attacks with its claws or one with its caustic burst."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 3 ({@damage 1d6}) acid damage."
+					]
+				},
+				{
+					"name": "Caustic Bile",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 15/30 ft., one target. {@h}The target must make a {@dc 13} Dexterity saving throw, taking 17 ({@damage 5d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Alchemists are often considered to be some of the smartest individuals around, requiring years and sometimes decades of study and practice to create magical potions far beyond the reach of ordinary citizens. An alchemy lab is a dangerous place, however. There are accidents, and the worst amongst these accidents cause the alchemists themselves to become bound to their own ingredients and tools. When this happens, the formerly advanced mind is reduced to that of a feral beast with physical manifestations not ever meant to occur in the eyes of the gods.",
+					"Caustic Alchemist ",
+					"These alchemists work amongst heavily acidic potions or in areas of ingredient disposal. When corruption occurs, the acid combines with their physicality and causes their blood to turn to become caustic. Most of their body adapts to this acid, but other parts are melted and drip corrosive liquids from open wounds. Every moment of life is agony for these creatures and they seek to inflict this same pain on others. They will tear at enemies with hands that have melted away to bone and will lob balls of acidic bile to melt away their flesh as their own has been melted."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Construct Alchemist",
+			"isNamedCreature": true,
+			"source": "NerzugalsExtendedBestiary",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 48",
+				"average": 136
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 17,
+			"wis": 10,
+			"cha": 15,
+			"save": {
+				"str": "+8",
+				"dex": "+7"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Weakened Mind",
+					"entries": [
+						"The alchemist has disadvantage on Charisma, Intelligence, and Wisdom saving throws."
+					]
+				},
+				{
+					"name": "Advanced scanners",
+					"entries": [
+						"The alchemist uses his mechanical eye to take in intricate details of his environment hidden to the human eye. It has truesight up to 30 ft."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The alchemist makes three attacks: two with its servo-enhanced strike and one with its poison vial."
+					]
+				},
+				{
+					"name": "Servo-Enhanced Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Poison Vial",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}The target must make a {@dc 15} Constitution saving throw, taking 21 ({@damage 6d6}) poison damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw by 5 or more is {@condition poisoned} until the end of their next turn."
+					]
+				},
+				{
+					"name": "Poison Canister {@recharge 5}",
+					"entries": [
+						"The alchemist launches a canister filled with deadly poisonous gas at a point within 30 feet. Each creature in a 10-foot-radius sphere centered on that point must make a {@dc 15} Constitution saving throw, taking 38 ({@damage 7d10}) poison damage on a failed save, or half as much damage on a successful one. Creatures that failed the save are also {@condition poisoned} for 1 minute. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the {@condition poisoned} condition on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Automated Reflexes",
+					"entries": [
+						"The alchemist adds 3 to its AC against one melee attack that would hit it. To use this feature, the alchemist must see the attacker."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The alchemist can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. The alchemist regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Strike",
+					"entries": [
+						"The alchemist makes a servo-enhanced strike."
+					]
+				},
+				{
+					"name": "Poison Burst (Costs 2 Actions)",
+					"entries": [
+						"The alchemist opens up a side compartment and unleashes a blast of poisonous gas against each creature within 10 feet. Each creature in this area must succeed on a {@dc 15} Constitution saving throw or take 16 ({@damage 3d10}) poison damage."
+					]
+				},
+				{
+					"name": "Rapid Repair (Costs 3 Actions)",
+					"entries": [
+						"The alchemist performs a swift operation on its damaged component and regains 30 hit points."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Alchemists are often considered to be some of the smartest individuals around, requiring years and sometimes decades of study and practice to create magical potions far beyond the reach of ordinary citizens. An alchemy lab is a dangerous place, however. There are accidents, and the worst amongst these accidents cause the alchemists themselves to become bound to their own ingredients and tools. When this happens, the formerly advanced mind is reduced to that of a feral beast with physical manifestations not ever meant to occur in the eyes of the gods.",
+					"Construct Alchemist ",
+					"The construct alchemist is the most powerful of all transformed former laboratory workers. When the accident occurred, these alchemists were in proximity to a golem or similar creation which fused with their body to create a halfman, half-machine monstrosity that maintains some small scrap of sanity. They are given the strength of a machine, with tubes twisting and writhing between flesh and metal and pumping both blood, oil, and other fluids to somehow keep the creature alive.",
+					"A Conflicted Mind. This alchemist alone maintains a portion of its conscious mind, but these instances of clarity come in incredibly painful waves of occurrence. Because of this, the alchemist’s mind is susceptible to mind altering magics. It may seem like this alchemist could be saved and redeemed, but any attempts to remove the metals latched onto its brain would result in certain death.",
+					"Both Man and Machine. Most of the right half of the body has been replaced by metal and wiring - from foot to skull. The left half remains relatively untouched except for a few wires that dig into its skin. Blood flows through a clear plastic tube that juts out just below the lungs and curves up to connect to its brain. Most of its jaw is still human, but some of its teeth have been replaced by jagged metal shards and screws. One of its eyes is a glowing red sensor while the other remains ordinary, though horribly bloodshot. It is the portions where the metal and flesh combine that is truly unsettling though. Metal burrows into flesh with sharpened hooks that pulls and stretches the flesh but doesn’t tear it. In other parts, the skin grows over the metal, turning it a deep purple color similar to a bruise. In some portions, the job was not done perfectly and bits of organs are exposed. Bone ribs jut out through the metal panel on the right side of its chest. ",
+					"It is nightmarish to behold."
+				]
+			},
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Alchemist Frost",
+			"shortName": "Frost Alchemist",
+			"source": "NerzugalsExtendedBestiary",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d10 + 12",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 16,
+			"wis": 12,
+			"cha": 8,
+			"passive": 11,
+			"immune": [
+				"cold"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Frozen Flesh",
+					"entries": [
+						"A creature that touches the alchemist or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) cold damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The alchemist makes two freezing strike attacks."
+					]
+				},
+				{
+					"name": "Freezing Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 5 ({@damage 2d4}) cold damage and the target's movement speed is reduced by 10 on its next turn. If the alchemist hits the same target with both of its freezing strike attacks in a single round, the target is {@condition restrained} until the end of their next turn instead."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Alchemists are often considered to be some of the smartest individuals around, requiring years and sometimes decades of study and practice to create magical potions far beyond the reach of ordinary citizens. An alchemy lab is a dangerous place, however. There are accidents, and the worst amongst these accidents cause the alchemists themselves to become bound to their own ingredients and tools. When this happens, the formerly advanced mind is reduced to that of a feral beast with physical manifestations not ever meant to occur in the eyes of the gods."
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		}
+	]
+}
