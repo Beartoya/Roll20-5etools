@@ -1,0 +1,148 @@
+{
+	"siteVersion": "1.140.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TomeofHorrors",
+				"abbreviation": "ToH20",
+				"full": "Tome of Horrors 2020",
+				"url": "",
+				"authors": [],
+				"convertedBy": [
+					"Bear"
+				]
+			}
+		],
+		"dateAdded": 1635287142,
+		"dateLastModified": 1635287142
+	},
+	"monster": [
+		{
+			"name": "Chaos Knight",
+			"source": "TomeofHorrors",
+			"page": 35,
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 16,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						{
+							"resist": []
+						}
+					],
+					"note": "slashing from non magical attacks"
+				}
+			],
+			"immune": [
+				"cold",
+				"psychic"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"frightened",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Darkshed"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The chaos knight’s spellcasting ability is Charisma (spell save {@dc 13}, spell attack bonus +5). The chaos knight can cast the following spells without material components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell ray of frost}"
+					],
+					"daily": {
+						"2": [
+							"{@spell ice storm}"
+						],
+						"3e": [
+							"{@spell dimension door}",
+							"{@spell protection from evil and good}"
+						],
+						"1e": [
+							"{@spell telekinesis}",
+							"{@spell wall of ice}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Icy Incorporeality",
+					"entries": [
+						"By using an action, a chaos knight can make itself incorporeal until the start of its next turn. While incorporeal, it can pass through solid objects such as a wall or other creatures as if they were difficult terrain. It leaves behind an icy outline where it passes."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"We thought it was just a suit of animated armor. How droll! As it clanked forward, we learned our error, for the foul thing was no mindless chunk of metal held together by magic. It had a fiendish presence that radiated from it in waves of bone-cracking cold. The battle did not go well, but in the end I managed to survive through quick application of alacrity-enhancing magics. Yes, I ran for it, very quickly if I might say so myself. — Algrid Henswaithe, University of the Vast",
+					"Ghostly forms encased in overly spiky armor, chaos knights are the foot soldiers and agents of evil powers. They are somewhat ephemeral in nature, but instead of a cool nothingness, they can become a cold nothingness that rides the border between the world and other realms. This coldness radiates from their open helms as a pale bluish glow."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/4cRnMgv.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/cwIRYfg.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"spellcastingTags": [
+				"I"
+			]
+		}
+	]
+}
